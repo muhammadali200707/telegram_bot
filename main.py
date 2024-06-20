@@ -5,7 +5,7 @@ from default_button import menu_keyboard, menu_detail, mahsulot_button
 from inline_button import keyboard
 import asyncio
 
-API_TOKEN = "7450181024:AAHK4U9bJ5Pcbib3GoluxgHdo2uu87ieL08"
+API_TOKEN = "6997464365:AAFuIHSr1aBkUI5T2Ah0hmJCuDFwWrOg6Tw"
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -40,6 +40,41 @@ async def show_menu(message: types.Message):
     # action = button_callback_menu.new(action=message.text)
     await message.answer("2 - bo'lim. Mahsulotlardan birini tanglang:")
 
+@dp.message_handler(lambda message: message.text == "Menyu 3")
+async def show_menu(message: types.Message):
+    # action = button_callback_menu.new(action=message.text)
+    await message.answer("2 - bo'lim. Mahsulotlardan birini tanglang:")
+
+
+@dp.message_handler(lambda message: message.text == "Menyu 4")
+async def show_menu(message: types.Message):
+    # action = button_callback_menu.new(action=message.text)
+    await message.answer("2 - bo'lim. Mahsulotlardan birini tanglang:")
+
+
+@dp.message_handler(lambda message: message.text == "Menyu 5")
+async def show_menu(message: types.Message):
+    # action = button_callback_menu.new(action=message.text)
+    await message.answer("2 - bo'lim. Mahsulotlardan birini tanglang:")
+
+
+@dp.message_handler(lambda message: message.text == "Menyu 6")
+async def show_menu(message: types.Message):
+    # action = button_callback_menu.new(action=message.text)
+    await message.answer("2 - bo'lim. Mahsulotlardan birini tanglang:")
+
+
+@dp.message_handler(lambda message: message.text == "Menyu 7")
+async def show_menu(message: types.Message):
+    # action = button_callback_menu.new(action=message.text)
+    await message.answer("2 - bo'lim. Mahsulotlardan birini tanglang:")
+
+
+@dp.message_handler(lambda message: message.text == "Menyu 8")
+async def show_menu(message: types.Message):
+    # action = button_callback_menu.new(action=message.text)
+    await message.answer("2 - bo'lim. Mahsulotlardan birini tanglang:")
+
 
 @dp.message_handler(lambda message: message.text == "Back")
 async def show_menu(message: types.Message):
@@ -55,9 +90,9 @@ async def show_menu(message: types.Message):
 
 @dp.message_handler(commands=['image'])
 async def send_image(message: types.Message):
-    if message.from_user.id in [6103459824, 1001968950]:
+    if message.from_user.id in [1001968950]:
         await message.reply("Salom admin")
-        photo_path = "telegram_bot/img.png"
+        photo_path = "https://www.google.co.uz/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fnajotedu%2F%3Flocale%3Dru_RU&psig=AOvVaw2zDxN9-lq0M-FsUnKQwp3M&ust=1718989969065000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJCBte7W6oYDFQAAAAAdAAAAABAE"
         await bot.send_photo(message.chat.id, photo=photo_path)
     else:
         await message.reply("Bunday buyruq turi mavjud emas")
@@ -65,3 +100,90 @@ async def send_image(message: types.Message):
 
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#class smt():
+# def ofmaofmsaofeimaof;simfa
